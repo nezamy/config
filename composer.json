@@ -1,0 +1,26 @@
+{
+    "name": "nezamy/config",
+    "type": "library",
+    "description": "Config",
+    "keywords": ["Config", "justframework", "micro", "framework"],
+    "homepage": "https://github.com/nezamy/config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud Elnezamy",
+            "email": "mahmoud@nezamy.com",
+            "homepage": "http://nezamy.com",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nezamy/support": "dev-master",
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "system"
+        }
+    },
+    "minimum-stability": "dev"
+}
